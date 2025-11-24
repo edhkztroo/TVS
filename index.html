@@ -3,10 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>THAT VIBE Studio</title>
     
-    <!-- FAVICON SETUP -->
+    <!-- PRIMARY SEO -->
+    <title>THAT VIBE Studio | Premium AI Web Design & Development</title>
+    <meta name="description" content="THAT VIBE Studio merges premium designer intuition with AI power to build high-performance, aesthetic websites. Custom web design, no templates. Start your project today." />
+    <meta name="keywords" content="web design, AI web development, vibe coding, custom websites, react developer, nextjs agency, diseño web premium, desarrollo web inteligencia artificial" />
+    <meta name="author" content="THAT VIBE Studio" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- OPEN GRAPH / FACEBOOK / WHATSAPP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thatvibestudio.com/" />
+    <meta property="og:title" content="THAT VIBE Studio | Not Just Code, It's Pure Vibe" />
+    <meta property="og:description" content="We build digital products that grow your business. High-end design powered by AI architecture. No bloat, just flow." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- TWITTER -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://thatvibestudio.com/" />
+    <meta property="twitter:title" content="THAT VIBE Studio | AI Powered Design" />
+    <meta property="twitter:description" content="The era of boring software is over. Custom web design & development starting at $200 USD." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" />
+    
+    <!-- FAVICON -->
     <link rel="icon" type="image/svg+xml" href="https://raw.githubusercontent.com/edhkztroo/TVS/e3924be4395add60410322ec48c4ce4a9bec6182/TVS.svg" />
+    
+    <!-- STRUCTURED DATA (JSON-LD) FOR AI & GOOGLE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "THAT VIBE Studio",
+      "image": "https://raw.githubusercontent.com/edhkztroo/TVS/e3924be4395add60410322ec48c4ce4a9bec6182/TVS.svg",
+      "url": "https://thatvibestudio.com",
+      "telephone": "+5215654313905",
+      "priceRange": "$$",
+      "description": "THAT VIBE Studio is a design-first agency using AI to build high-performance websites.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.4326,
+        "longitude": -99.1332
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://instagram.com/thatvibestudio"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "200",
+        "priceCurrency": "USD",
+        "name": "Custom Website Development"
+      }
+    }
+    </script>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,10 +122,8 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
