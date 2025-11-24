@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Smile, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const VideoHero: React.FC = () => {
@@ -14,8 +13,9 @@ const VideoHero: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop" 
-            alt="Creative Studio Office" 
+            alt="Modern Creative Web Design Studio Office - THAT VIBE Studio" 
             className="w-full h-full object-cover scale-105"
+            loading="eager"
           />
           {/* Overlay for text readability */}
           <div className="absolute inset-0 bg-black/40"></div>
