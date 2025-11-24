@@ -22,15 +22,14 @@ const Pricing: React.FC = () => {
       </div>
 
       {/* Floating Smile (Bottom Right) */}
-      <div className="absolute bottom-12 right-4 md:right-32 animate-spin-slow pointer-events-none opacity-80 md:opacity-100">
-  <div className="bg-[#d2ff00] border-2 border-black p-3 rounded-full shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rotate-[12deg]">
-    <img 
-      src="/assets/sticker_pricing_bottom.svg" 
-      alt="Sticker Pricing Bottom"
-      className="w-12 h-12"
-    />
-  </div>
+  <div className="absolute bottom-12 right-4 md:right-32 animate-spin-slow pointer-events-none opacity-80 md:opacity-100">
+  <img 
+    src="/assets/sticker_pricing_bottom.svg" 
+    alt="Sticker Pricing Bottom"
+    className="w-16 h-16"
+  />
 </div>
+
 
 
       {/* ------------------------- */}
