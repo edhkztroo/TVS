@@ -61,10 +61,10 @@ const translations = {
       viewCase: "View Case",
       projects: [
         { 
-          name: "NEON DRIFT", 
-          type: "Automotive E-commerce",
+          name: "ACCIÓN POLÍTICA", 
+          type: "Political Consulting Agency",
           img: "/assets/project_1.jpg", 
-          link: "https://google.com"
+          link: "https://ap-liart.vercel.app/"
         },
         { 
           name: "ZEN MODE", 
