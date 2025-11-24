@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type Language = 'en' | 'es';
@@ -40,6 +41,7 @@ const translations = {
         { title: "Interactive UI", desc: "Micro-interactions that delight users." },
       ],
     },
+
     portfolio: {
       title: "Selected",
       titleAccent: "Works",
@@ -47,13 +49,13 @@ const translations = {
       projects: [
         {
           name: "Acción Política",
-          type: "Landing Page – Vibe Coding",
+          type: "Political Consulting Agency",
           img: "/assets/project_1.jpg",
           link: "https://ap-liart.vercel.app/",
         },
         {
           name: "Amaury Mogollón",
-          type: "Landing Page – Vibe Coding",
+          type: "Political Consultant – Personal Website",
           img: "/assets/project_2.jpg",
           link: "https://amaury-iota.vercel.app/",
         },
@@ -62,6 +64,7 @@ const translations = {
         { name: "Coming Soon", type: "New Project", img: "/assets/project_5.jpg", link: "#" },
       ],
     },
+
     faq: {
       title: "VIBE CHECK",
       subtitle: "(FAQ)",
@@ -71,6 +74,7 @@ const translations = {
         { q: "Is this a template?", a: "Never. Everything is custom-made." },
       ],
     },
+
     pricing: {
       label: "THE NUMBERS",
       title: "WANT A WEBSITE LIKE THIS?",
@@ -79,11 +83,13 @@ const translations = {
       features: ["Custom Design", "AI Architecture", "Responsive", "Full Ownership"],
       cta: "Start Project",
     },
+
     whatsapp: {
       title: "start project",
       desc: "Scan the QR code to chat with us.",
       button: "Chat via desktop",
     },
+
     footer: {
       title: "don't be",
       titleAccent: "boring.",
@@ -128,6 +134,7 @@ const translations = {
         { title: "UI Interactiva", desc: "Micro-interacciones memorables." },
       ],
     },
+
     portfolio: {
       title: "Trabajos",
       titleAccent: "Selectos",
@@ -135,13 +142,13 @@ const translations = {
       projects: [
         {
           name: "Acción Política",
-          type: "Landing Page – Vibe Coding",
+          type: "Consultora Política",
           img: "/assets/project_1.jpg",
           link: "https://ap-liart.vercel.app/",
         },
         {
           name: "Amaury Mogollón",
-          type: "Landing Page – Vibe Coding",
+          type: "Consultor Político – Página Personal",
           img: "/assets/project_2.jpg",
           link: "https://amaury-iota.vercel.app/",
         },
@@ -150,6 +157,7 @@ const translations = {
         { name: "Próximamente", type: "Nuevo Proyecto", img: "/assets/project_5.jpg", link: "#" },
       ],
     },
+
     faq: {
       title: "VIBE CHECK",
       subtitle: "(Preguntas)",
@@ -159,6 +167,7 @@ const translations = {
         { q: "¿Es plantilla?", a: "Jamás. Todo es diseño a medida." },
       ],
     },
+
     pricing: {
       label: "LOS NÚMEROS",
       title: "¿QUIERES UNA WEB ASÍ?",
@@ -167,11 +176,13 @@ const translations = {
       features: ["Diseño Personalizado", "Arquitectura IA", "Responsive", "Propiedad Total"],
       cta: "Iniciar Proyecto",
     },
+
     whatsapp: {
       title: "iniciar proyecto",
       desc: "Escanea el código QR para chatear.",
       button: "Chatear desde escritorio",
     },
+
     footer: {
       title: "no seas",
       titleAccent: "aburrido.",
@@ -208,4 +219,4 @@ export const useLanguage = () => {
   if (!context)
     throw new Error("useLanguage must be used within a LanguageProvider");
   return context;
-}; 
+};
