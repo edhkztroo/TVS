@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
       {/* LOGO CONTAINER */}
       <div className="flex items-center gap-2 cursor-none">
         <img 
-            src="https://raw.githubusercontent.com/edhkztroo/TVS/e3924be4395add60410322ec48c4ce4a9bec6182/TVS.svg" 
+            src="https://raw.githubusercontent.com/edhkztroo/TVS/44bc144e9eb5f4462b8be2e81c2a81d54e37c281/TVS.svg" 
             alt="THAT VIBE Studio" 
             className={`
               w-auto object-contain transition-all duration-300 
