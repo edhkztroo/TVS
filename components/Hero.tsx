@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ scrollY }) => {
       <div className="absolute top-[5%] right-[5%] rotate-12 z-20 pointer-events-none">
         {/* Replace with your file: /assets/sticker_hero_top.png */}
         <img 
-          src="/assets/sticker_hero_top.png" 
+          src="/assets/sticker_hero_top.svg" 
           alt="Decoration Top" 
           className="w-24 h-24 object-contain drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]"
           onError={(e) => {
