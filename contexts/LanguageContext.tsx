@@ -60,7 +60,13 @@ const translations = {
       titleAccent: "Works",
       viewCase: "View Case",
       projects: [
-        { name: "NEON DRIFT", type: "Automotive E-commerce" },
+          { 
+    name: "Acción Política", 
+    type: "Political Consulting Agency", 
+    img: "/assets/project_1.jpg",
+    link: "https://ap-liart.vercel.app/" 
+  },
+
         { name: "ZEN MODE", type: "Wellness App" },
         { name: "URBAN PULSE", type: "Real Estate Platform" },
         { name: "CYBER PUNK", type: "NFT Marketplace" },
