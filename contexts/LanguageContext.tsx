@@ -67,10 +67,10 @@ const translations = {
           link: "https://ap-liart.vercel.app/"
         },
         { 
-          name: "ZEN MODE", 
-          type: "Wellness App",
+          name: "AMAURY MOGOLLÓN", 
+          type: "Political Consultant – Personal Website",
           img: "/assets/project_2.jpg", 
-          link: "https://google.com"
+          link: "https://amaury-iota.vercel.app/"
         },
         { 
           name: "URBAN PULSE", 
@@ -182,16 +182,16 @@ const translations = {
       viewCase: "Ver Caso",
       projects: [
         { 
-          name: "NEON DRIFT", 
-          type: "E-commerce Automotriz",
+          name: "ACCIÓN POLÍTICA", 
+          type: "Agencia Consultora Política",
           img: "/assets/project_1.jpg", 
-          link: "https://google.com"
+          link: "https://ap-liart.vercel.app/"
         },
         { 
-          name: "MODO ZEN", 
-          type: "App de Bienestar",
+          name: "AMAURY MOGOLLÓN", 
+          type: "Consultor Político – Página Personal",
           img: "/assets/project_2.jpg", 
-          link: "https://google.com"
+          link: "https://amaury-iota.vercel.app/"
         },
         { 
           name: "PULSO URBANO", 
