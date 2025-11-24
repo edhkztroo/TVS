@@ -26,7 +26,7 @@ const Pricing: React.FC = () => {
   <img 
     src="/assets/sticker_pricing_bottom.svg" 
     alt="Sticker Pricing Bottom"
-    className="w-20 h-20"
+    className="w-24 h-24"
   />
 </div>
 
