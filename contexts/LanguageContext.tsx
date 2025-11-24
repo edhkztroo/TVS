@@ -60,17 +60,36 @@ const translations = {
       titleAccent: "Works",
       viewCase: "View Case",
       projects: [
-          { 
-    name: "Acción Política", 
-    type: "Political Consulting Agency", 
-    img: "/assets/project_1.jpg",
-    link: "https://ap-liart.vercel.app/" 
-  },
-
-        { name: "ZEN MODE", type: "Wellness App" },
-        { name: "URBAN PULSE", type: "Real Estate Platform" },
-        { name: "CYBER PUNK", type: "NFT Marketplace" },
-        { name: "VIBE CHECK", type: "Social Media App" }
+        { 
+          name: "NEON DRIFT", 
+          type: "Automotive E-commerce",
+          img: "/assets/project_1.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "ZEN MODE", 
+          type: "Wellness App",
+          img: "/assets/project_2.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "URBAN PULSE", 
+          type: "Real Estate Platform",
+          img: "/assets/project_3.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "CYBER PUNK", 
+          type: "NFT Marketplace",
+          img: "/assets/project_4.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "VIBE CHECK", 
+          type: "Social Media App",
+          img: "/assets/project_5.jpg", 
+          link: "https://google.com"
+        }
       ]
     },
     faq: {
@@ -162,11 +181,36 @@ const translations = {
       titleAccent: "Selectos",
       viewCase: "Ver Caso",
       projects: [
-        { name: "NEON DRIFT", type: "E-commerce Automotriz" },
-        { name: "MODO ZEN", type: "App de Bienestar" },
-        { name: "PULSO URBANO", type: "Plataforma Inmobiliaria" },
-        { name: "CYBER PUNK", type: "NFT Marketplace" },
-        { name: "VIBE CHECK", type: "Red Social" }
+        { 
+          name: "NEON DRIFT", 
+          type: "E-commerce Automotriz",
+          img: "/assets/project_1.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "MODO ZEN", 
+          type: "App de Bienestar",
+          img: "/assets/project_2.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "PULSO URBANO", 
+          type: "Plataforma Inmobiliaria",
+          img: "/assets/project_3.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "CYBER PUNK", 
+          type: "NFT Marketplace",
+          img: "/assets/project_4.jpg", 
+          link: "https://google.com"
+        },
+        { 
+          name: "VIBE CHECK", 
+          type: "Red Social",
+          img: "/assets/project_5.jpg", 
+          link: "https://google.com"
+        }
       ]
     },
     faq: {
